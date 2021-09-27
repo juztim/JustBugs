@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+        <AssemblyName>JustBugs.Core</AssemblyName>
+        <RootNamespace>JustBugs.Core</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="DTOs" />
+      <Folder Include="Services" />
+    </ItemGroup>
+
+    <Import Project="..\JustBugs.Database\JustBugs.Database.projitems" Label="Shared" />
+
+</Project>
