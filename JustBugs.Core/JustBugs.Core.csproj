@@ -19,12 +19,5 @@
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.10" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="DTOs" />
-      <Folder Include="Services" />
-    </ItemGroup>
-
-    <Import Project="..\JustBugs.Database\JustBugs.Database.projitems" Label="Shared" />
-
+    
 </Project>
